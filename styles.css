@@ -1,0 +1,52 @@
+
+body{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+.post{
+    background: white;
+    width: 500px;
+    height:580px;
+    margin: 15%;
+    border-radius: 2%;
+    border: 3px solid red;
+
+
+    
+}
+
+.post_header{
+    font-size: 24px;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width:500px;
+    height:400px;
+    align-items: center;
+    
+}
+.post_actions{
+    font-size: 24px;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.post_content{
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
