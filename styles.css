@@ -1,4 +1,8 @@
 
+*{
+    margin:0px;
+    padding:0px;
+}
 body{
     background: black;
     display: flex;
@@ -11,23 +15,28 @@ body{
 .post{
     background: white;
     width: 500px;
-    height:580px;
     margin: 15%;
     border-radius: 2%;
     border: 3px solid red;
 
-
-    
 }
 
 .post_header{
-    font-size: 24px;
-    margin-left: 3%;
-    margin-right: 3%;
+    font-size: 16px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+.div_left{
+    display:flex;
+    align-items:center;
+    gap:5px;
 
+}
+#html{
+font-size: 35px;
+}
 img{
     width:500px;
     height:400px;
@@ -43,10 +52,7 @@ img{
 }
 .post_content{
     height: 100%;
-    margin-top: 0px;
-    margin-bottom: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 10px;
     text-align: justify;
 }
 
