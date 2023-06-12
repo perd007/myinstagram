@@ -5,6 +5,7 @@
 }
 body{
     background: black;
+    height: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -15,7 +16,6 @@ body{
 .post{
     background: white;
     width: 500px;
-    margin: 15%;
     border-radius: 2%;
     border: 3px solid red;
 
